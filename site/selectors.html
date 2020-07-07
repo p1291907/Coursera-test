@@ -1,0 +1,66 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Selectors</title>
+
+	<style>
+		h1{
+			color: red;
+			text-align: center;
+		}
+		h2.second-line{
+			color: purple;
+			font-size: 16px;
+		}
+		.second-line.third-line{
+			font-style: italic;
+			font-size: 16px;
+			color: green;
+		}
+		article li{
+			color: blue;
+			font-size: 12px;
+			font-style: bold;
+		}
+		section > h2{
+			color: orange;
+			font-size: 16px;
+			font-style: italic;
+		}
+		article p{
+			color: green;
+
+		}
+		article > h3{
+			color: green;
+			font-style: italic;
+		}
+
+
+	</style>
+</head>
+
+<body>
+	<h1>This demonstrates all types of selectors</h1>
+	<h2 class="second-line"> This will show class selectors</h2>
+	<h2 class="third-line second-line"> This one has 2 class selectors.</h2>
+	<article>
+		<h2>Combined Selectors</h2>
+		<ul>
+			<li><h2>1. Element with selector</h2></li>
+			<li><h2>2. child Selector</h2></li>
+			<li><h2>3. Descendant Selector</h2></li>
+		</ul>
+	</article>
+
+	<section>
+		<h2>This shows what I have learned so far about CSS & HTML</h2>
+	</section>
+
+	<article>
+		<h3>This demonstres child selector</h3>
+		<div><p>So far I have learned alot from this course</p></div>
+	</article>
+</body>
+</html>

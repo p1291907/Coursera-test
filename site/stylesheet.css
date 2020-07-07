@@ -1,0 +1,50 @@
+body{
+	background-color: black;
+	font-size: 130%
+}
+	header li{
+		list-style: none;
+		}
+	a:link, a:visited{
+		border: 1px solid: blue;
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin-bottom: 2px;
+		font-size: 20px;
+		text-decoration: none;
+		background-color: black;
+		color: white;
+			
+		}
+		
+	a:hover{
+		background-color: yellow;
+		color: black;
+	}
+	a:active{
+		font-style: italic;
+	}
+	section div:nth-child(odd){
+		background-color: blue;
+		color: white;
+	}
+	section div:nth-child(4):hover{
+		cursor: pointer;
+		background-color: yellow;
+	}
+	section div:nth-child(2):hover{
+		cursor: pointer;
+		background-color: yellow;
+	}
+	h1:hover{
+		cursor: pointer;
+		background-color: yellow;
+	}
+	h1:active{
+		font-style: italic;
+	}
+	article p:hover{
+		cursor: pointer;
+		background-color: yellow;
+	}

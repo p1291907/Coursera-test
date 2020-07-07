@@ -1,0 +1,103 @@
+<!Doctype html>
+<html lang="en">
+<head>	
+	<title>demonstration</title>
+	<meta charset="utf-8">
+	<style>
+		
+		h1{
+			color: red;
+			font-style: italic;
+			font-size: 50px;
+			text-align: center;
+			background-color: black;
+		}
+		section li {
+			list-style: none;
+
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			border: solid;
+			border-color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+
+		}
+		
+		a:hover{
+			color: red;
+			background-color: white;
+			font-weight: bold;
+			font-size: 20px;	
+		}	
+		a:active{
+			color: blue;
+			font-style: italic;
+		}	
+
+		.orange{
+			font-weight: bold;
+			color: orange;
+		}
+		section div:nth-child(1){
+			font-weight: bold;
+			font-style: italic;
+			margin: 2px;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 100%;
+		}
+		section div:nth-child(2){
+			font-size: 1.2em;
+			font-style: italic;
+			font-weight: bold;
+			font-family: "Times New Roman", Times, serif;
+			margin: 2px;
+		}
+		section div:nth-child(3):hover{
+			background-color: yellow;
+		}
+		section li:nth-child(2){
+			font-size: 30px;
+		}
+
+		
+		
+
+	</style>
+
+</head>
+
+<body>
+	<section><h1>This is the menu with style!</h1>
+		<ul>
+			<li><a href="http://www.google.com" target="_blank" title="Google">Google</a></li>
+			<li><a href="http://www.austincc.edu" target="_blank" title="ACC">ACC</a></li>
+		</ul>
+	</section>
+	<h2 class="orange">This section is orange</h2>
+	<section>
+		
+		<div>This text should be bold and italized</div>
+		<div>This should have the same format but the font should be bigger</div>
+			<div>This text should be highlighted yellow when the user hovers over it and italic when the user clicks it. </div>
+	</section>
+
+	<article>
+		<h2>Text on this and everything else should be in a box</h2>
+		<ul>
+			<li>Monday</li>
+			<li>Tuesday</li>
+			<li>Wednesday</li>
+			<li>Thursday</li>
+			<li>Friday</li>
+			<li>Saturday</li>
+			<li>Sunday</li>
+		</ul>
+	</article>
+
+</body>
+
+</html>
