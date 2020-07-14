@@ -1,0 +1,283 @@
+
+		* {
+			box-sizing: border-box;
+		}
+		
+
+		h1 {
+			text-align: center;
+			margin: 40px;
+			font-style: italic;
+			font-family: Arial, Helvetica, sans-serif;
+			/*making text italic*/
+			font-size: 1.75em;
+			}
+/*Desktop View*/
+		@media(min-width: 992px){
+			.first{
+				border: solid;
+				border-color: #FF0000;
+				border-width: 4px;
+				font-weight: bold;
+				position: relative;
+				float: right;
+				background-color: #000000;
+				padding: 4px;
+				color: #FFFF00;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 1.25em;
+				}
+		/*title beef*/
+			.second{
+				border: dashed;
+				border-color: #000000;
+				border-width: 4px;
+				background-color: #234088;
+				font-weight: bold;
+				padding: 4px;
+				float: right;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 1.25em;
+			}
+		/*title Sushi*/
+			.third{
+				border: thick;
+				border: solid;
+				border-color: #e2cd2f;
+				padding: 4px;
+				background-color: #e2852f;
+				float: right;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 1.25em;
+			}
+		/*All the paragraphs*/
+			p{
+				padding: 1px;
+				width: 100%;
+				margin: 4px;
+				border: 20px;
+				clear: right;
+				font-family: "Times New Roman", Times, serif;
+			}
+		/*First paragraph*/
+			.chicken {
+				float: left;
+  				width: 30%;
+  				padding: 2px;
+  				height: 40%;
+  				border: solid;
+				border-color: #4B6A88;
+				background-color: #000000;
+				margin: 1%;
+				color: #D3D3D3;
+				font-size: 120%;
+			}
+
+		/*Second paragraph*/
+			.Beef {
+				border: solid;
+				border-color: #4B6A88;
+				background-color: #304469;
+				margin: 1%;
+				float: left;
+  				width: 30%;
+  				padding: 2px;
+  				height: 40%;
+				color: #E4F1FE;
+				font-size: 120%;
+			}
+		/*Third paragraph*/
+			.Sushi {
+				border: solid;
+				border-color: #4B6A88;
+				background-color: #7c756e;
+				margin: 1%;
+				float: left;	/*floats the element to the right*/
+  				width: 30%;
+  				padding: 2px;
+  				height: 40%;
+				color: #f7efe8;
+				font-size: 120%;
+				}
+		}
+	/*should figure out font percentage*/
+	/*should do font family later on*/ 
+	
+
+	
+	/*tablet view*/
+		@media(min-width: 768px) and (max-width: 991px){
+			.first{
+				border: solid;
+				border-color: #FF0000;
+				border-width: 2px;
+				font-weight: bold;
+				position: relative;
+				float: right;
+				background-color: #000000;
+				padding: 1px;
+				color: #FFFF00;
+				font-size: 1.25em;
+				}
+			/*title beef*/
+			.second{
+				border: solid;
+				border-color: #000000;
+				border-width: 2px;
+				background-color: #234088;
+				font-weight: bold;
+				padding: 1px;
+				float: right;
+				font-size: 1.25em;
+				}
+			.third{
+				border: thick;
+				border: solid;
+				border-color: #e2cd2f;
+				float: right;
+				padding: 4px;
+				background-color: #e2852f;
+				clear: both;
+				font-size: 1.25em;
+				}
+		
+			/*All the paragraphs*/
+			p{
+				padding: 2px;
+				width: 100%;
+				margin: 4px;
+				border: 20px;
+				clear: both;
+				}
+		/*First paragraph*/
+			.chicken {
+				float: left;
+  				width: 45%;
+  				padding: 2px;
+  				height: 40%;
+  				border: solid;
+				border-color: #4B6A88;
+				background-color: #000000;
+				margin: 1%;
+				color: #D3D3D3;
+				font-size: 120%;
+				/*have to figure out how to setup font percentage*/
+				}
+
+		/*Second paragraph*/
+			.Beef {
+				border: solid;
+				border-color: #4B6A88;
+				background-color: #304469;
+				margin: 1%;
+				float: right;
+				float: top;
+  				width: 45%;
+  				padding: 2px;
+  				height: 40%;
+				color: #E4F1FE;
+				font-size: 120%;
+				}
+			.Sushi {
+				border: solid;
+				border-color: #4B6A88;
+				background-color: #7c756e;
+				margin: 1%;
+				float: left;	/*floats the element to the right*/
+  				width: 100%;
+  				padding: 2px;
+  				height: 40%;
+				color: #f7efe8;
+				font-size: 120%;
+				}
+		}
+		/*for cell phones*/
+		@media(max-width: 767px){
+			.first{
+				border: solid;
+				border-color: #FF0000;
+				border-width: 2px;
+				font-weight: bold;
+				position: relative;
+				float: right;
+				background-color: #000000;
+				padding: 1px;
+				color: #FFFF00;
+				font-size: 1.25em;
+				}
+			/*title beef*/
+			.second{
+				border: solid;
+				border-color: #000000;
+				border-width: 2px;
+				background-color: #234088;
+				font-weight: bold;
+				padding: 1px;
+				float: right;
+				font-size: 1.25em;
+				}
+			.third{
+				border: thick;
+				border: solid;
+				border-color: #e2cd2f;
+				float: right;
+				padding: 4px;
+				background-color: #e2852f;
+				clear: both;
+				font-size: 1.25em;
+				}
+		
+			/*All the paragraphs*/
+			p{
+				padding: 2px;
+				width: 100%;
+				margin: 4px;
+				border: 20px;
+				clear: both;
+
+				}
+		/*First paragraph*/
+			.chicken {
+				float: left;
+  				width: 100%;
+  				padding: 2px;
+  				height: 40%;
+  				border: solid;
+				border-color: #4B6A88;
+				background-color: #000000;
+				margin: 1%;
+				color: #D3D3D3;
+				font-size: 120%;
+			
+				/*have to figure out how to setup font percentage*/
+				}
+
+		/*Second paragraph*/
+			.Beef {
+				border: solid;
+				border-color: #4B6A88;
+				background-color: #304469;
+				margin: 1%;
+				float: right;
+				
+  				width: 100%;
+  				padding: 2px;
+  				height: 40%;
+				color: #E4F1FE;
+				font-size: 120%;
+				}
+			.Sushi {
+				border: solid;
+				border-color: #4B6A88;
+				background-color: #7c756e;
+				margin: 1%;
+				float: left;	/*floats the element to the right*/
+  				width: 100%;
+  				padding: 2px;
+  				height: 40%;
+				color: #f7efe8;
+				font-size: 120%;
+				}
+		}
+	
+	</style>
