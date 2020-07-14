@@ -100,12 +100,7 @@
 				font-size: 120%;
 				}
 		}
-	/*should figure out font percentage*/
-	/*should do font family later on*/ 
-	
-
-	
-	/*tablet view*/
+/*tablet view*/
 		@media(min-width: 768px) and (max-width: 991px){
 			.first{
 				border: solid;
@@ -192,7 +187,7 @@
 				}
 		}
 		/*for cell phones*/
-		@media(max-width: 767px){
+		@media only screen and (max-width: 767px){
 			.first{
 				border: solid;
 				border-color: #FF0000;
