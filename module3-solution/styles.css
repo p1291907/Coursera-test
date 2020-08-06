@@ -1,82 +1,258 @@
 body {
   font-size: 16px;
-
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: black;
-  border-radius: 0px;
+  background-color: #000000;
+  border-radius: 0;
   border: 0;
-  position: relative;
-  
+  margin-top: -20px;
+  margin-right: -20px;
+  }
+  .navbar-brand{
+    margin: 20px;
+  }
+.navbar-brand h1{
+  margin-top: -10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #0000FF;
 }
 
-.navbar-brand {
-  padding-top: 33px;
-  position: absolute;
-  width: 100%;
-  margin-top: 4px;
-  margin-left: -185px;
-  margin-right: -4px;
-  text-align: left;
-
-}
-
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: white;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  position: fixed;
-  right: 82%;
-  top: 10%;
-  width: 17%;
-  left-margin: -100px;
-  margin-top: -90px;
-
-}
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+
 }
 
-
 #nav-list{
-  background: grey;
-  
+  background: #555555;
+  position: relative;
   margin-top: 0.5px; /*Extremly important makes the menu to slide down and not cover the contents*/
 }  
 #nav-list a {
   font-weight: bold;
-  color: white;
-  font-size: 1.2em;
+  color: #F0F8FF;
+  font-size: 14px;
   text-align: center;
 }
 #nav-list a:hover{
-  background-color: blue;
+  background-color: #0048BA;
   text-decoration: none;
 
 }
 /* button*/
  .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-  border:1px solid violet;
+  border:1px solid #8F00FF;
 }
-
+  .navbar-header button.navbar-toggle{
+    top-margin: -5px;
+    right-margin: 10px;
+  }
 .text-center{
-  color: white;
+  color: #F2F3F4;
   
 }
 #collapsable-nav a{
-  font-size: 1.5em;
+  font-size: 1.2em;
   top-margin: -200px;
 }
 #Chicken{
-  color: white;
+  color: #F2F3F4;
   padding: 20px;
-  border: solid;
+  margin: 40px;
   margin-top: 40px;
+  border: solid;
+  }
+
+
+/*******************************Boot Strap Desktop View**********************************/
+@media(min-width: 1200px){
+ /** HEADER **/
+#header-nav {
+  background-color: #000000;
+  border-radius: 0;
+  border: 0;
+  margin-top: -20px;
+  margin-right: -20px;
+  }
+.navbar-brand h1{
+  margin-top: -10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #0000FF;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+
+}
+
+#nav-list{
+  background: #555555;
+  position: relative;
+  margin-top: 0.5px; /*Extremly important makes the menu to slide down and not cover the contents*/
+}  
+#nav-list a {
+  font-weight: bold;
+  color: #F0F8FF;
+  font-size: 14px;
+  text-align: center;
+}
+#nav-list a:hover{
+  background-color: #0048BA;
+  text-decoration: none;
+
+}
+/* button*/
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border:1px solid #8F00FF;
+
+}
+
+.text-center{
+  color: #F2F3F4;
+  
+}
+#collapsable-nav a{
+  font-size: 1.2em;
+  top-margin: -200px;
+}
+#Chicken{
+  color: #F2F3F4;
+  padding: 20px;
+  margin: 40px;
+  margin-top: 40px;
+  border: solid;
+  }
+
+
+ .container.col-lg-12{
+    position: relative;
+ }
+}
+/*******************************Boot Strap Tablet View***********************/
+@media (min-width: 992px) and (max-width: 1199px){
+   /** HEADER **/
+  #header-nav {
+    background-color: #000000;
+    border-radius: 0;
+    border: 0;
+    margin-top: -20px;
+    margin-right: -20px;
+    }
+  .navbar-brand h1{
+    margin-top: -10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #0000FF;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list{
+    background: #555555;
+    position: relative;
+    margin-top: 0.5px; /*Extremly important makes the menu to slide down and not cover the contents*/
+  }  
+  #nav-list a {
+    font-weight: bold;
+    color: #F0F8FF;
+    font-size: 14px;
+    text-align: center;
+  }
+  #nav-list a:hover{
+    background-color: #0048BA;
+    text-decoration: none;
+  }
+  /* button*/
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1px solid #8F00FF;
+  }
+
+  .text-center{
+    color: #F2F3F4;
+  }
+  #collapsable-nav a{
+    font-size: 1.2em;
+    top-margin: -200px;
+  }
+  #Chicken{
+    color: #F2F3F4;
+    padding: 20px;
+    margin: 40px;
+    margin-top: 40px;
+    border: solid;
+    }
+  .container.col-md-12{
+    position: relative;
+  }
+}
+/*******************************Boot Strap Small View*****************************************/
+@media (min-width: 768px) and (max-width: 991px){
+       /** HEADER **/
+  #header-nav {
+    background-color: #000000;
+    border-radius: 0;
+    border: 0;
+    margin-top: -20px;
+    margin-right: -20px;
+    }
+  .navbar-brand h1{
+    margin-top: -10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #0000FF;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+    margin: 40px;
+  }
+
+  #nav-list{
+    background: #555555;
+    position: relative;
+    margin-top: 0.5px; /*Extremly important makes the menu to slide down and not cover the contents*/
+  }  
+  #nav-list a {
+    font-weight: bold;
+    color: #F0F8FF;
+    font-size: 12px;
+    text-align: center;
+  }
+  #nav-list a:hover{
+    background-color: #0048BA;
+    text-decoration: none;
+  }
+  /* button*/
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1px solid #8F00FF;
+
+  }
+    .navbar-header button.navbar-toggle{
+      top-margin: -8px;
+      right-margin: 10px;
+  }
+
+  .text-center{
+    color: #F2F3F4;
+  }
+  #collapsable-nav a{
+    font-size: 10px;
+    top-margin: -200px;
+  }
+      #Chicken{
+        color: #F2F3F4;
+        padding: 20px;
+        margin-top: 40px;
+      }
+      .container.col-xs-12{
+        position: relative;
+        width: 100%;
+  }
 }
